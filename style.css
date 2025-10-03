@@ -1,0 +1,23 @@
+:root{
+    /* COLOR VARIABLES */
+    --primary-color: rgba(33, 36, 41);
+    --secondary-color: rgba(183, 33, 78);
+    --bright-color: rgb(255, 255, 255);
+
+    /* FONT SIZE VARIABLE */
+    --font1: 1em;
+    --font2: 1.25em;
+    --font3: 1.5em;
+    --font4: 1.75em;
+    --font5: 2em;
+    --font6: 2.25em;
+    --font6: 2.5em;
+    --font7: 2.75em;
+    --font8: 3em;
+    --font9: 3.25em;
+    --font10: 3.5em;
+
+    /* FONT FAMILY VARIABLES */
+    --font-style: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
