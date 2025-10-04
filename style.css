@@ -18,7 +18,7 @@
     --font10: 3.5em;
 
     /* FONT FAMILY VARIABLES */
-    --font-style: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    --font-style: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
 }
 
@@ -29,24 +29,153 @@
     font-family: var(--font-style);
 }
 
-body{
-    width:100vw;
+main{
+    width: 100vw;
     height: auto;
-    display:grid;
-    place-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: red; */
 }
 
-main{
+#header{
     width: 100%;
     height: auto;
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--primary-color);
 }
-#header{
-    width: 90%;
+
+.header-profile{
+    display: flex;
+    align-items: end;
+    gap: 10px;
+}
+.header-profile img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: var(--secondary-color);
+}
+
+.header-profile h1{
+    font-size: var(--font5);
+    color: var(--bright-color);
+}
+
+.header-nav a{
+    color: var(--bright-color);
+    font-size: var(--font3);
+    margin-left: 50px;
+    text-decoration: none;
+}
+
+
+.media-access{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.media-access img{
+    width: 40px;
+    height: 40px;
+}
+
+/* HERO SECTION STYLES STARTS HERE */
+#hero-section{
+    width: 100%;
+    height: auto;
+    display: grid;
+    place-items: center;
+    color: var(--bright-color);
+    background-color: var(--primary-color);
+}
+
+.hero-content{
+    width: 95%;
+    height: auto;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+
+.hero-text{
+    width: 50%;
+    height: auto;
+}
+
+.hero-text h1{
+    font-size: var(--font3);
+    line-height: 40px;
+    font-weight: 600;
+}
+
+.hero-text h2{
+    font-size: var(--font6);
+    line-height: 50px;
+}
+
+.hero-text h2 span{
+    color: var(--secondary-color);
+}
+
+.hero-text p{
+    font-size: var(--font2);
+    line-height: 20px;
+    font: 900;
+    margin-bottom: 50px;
+}
+
+.hero-quick-access{
+    width: 100%;
     height: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 20px 0px;
+}
+
+.hero-quick-access h2{
+    font-size: var(--font2);
+}
+
+
+.hero-connect{
+    width: 30%;
+    height: auto;
+    /* background-color: gray; */
+}
+
+.connect-media{
+    width: 100%;
+    height: auto;
     padding: 10px;
-    background-color: blue
-    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+    box-shadow: 0 0 4px;
+    /* background-color: brown; */
+}
+
+.hero-skills{
+    width: 60%;
+    height: auto;
+}
+
+.skills-tools{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+    box-shadow: 0 0 4px;
+    /* background-color: brown; */
+}
+.hero-developer{
+    width: 40%
 }
