@@ -45,6 +45,8 @@ main{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: sticky;
+    top: 0;
     background-color: var(--primary-color);
 }
 
@@ -191,4 +193,134 @@ main{
 
 .hero-developer img{
     width: 100%;
+}
+
+
+/* ABOUT SECTION STYLES STARTS HERE */
+#about-section{
+    width: 100%;
+    height: auto;
+    display: grid;
+    place-items: center;
+    padding: 50px 0px;
+    background-color: var(--primary-color);
+    color: var(--bright-color)
+}
+
+.about-content{
+    width: 95%;
+    height: auto;
+    display:flex;
+    flex-direction: row-reverse;
+    align-items: end;
+    justify-content: space-between;
+    /* background-color: green; */
+}
+
+.about-description{
+    width: 55%;
+    height: auto;
+}
+
+.about-content h1{
+    color:var(--secondary-color);
+    font-size: var(--font3);
+    line-height: 50px;
+    /* text-align: center; */
+}
+
+.about-content h2{
+    font-size: var(--font6);
+    margin-bottom: 20px;
+}
+
+.about-content p{
+    font-size: var(--font2);
+    line-height: 25px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.about-btns {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.about-btns button{
+    padding: 10px;
+    height: 50px;
+    border: none;
+    border-radius: 8px;
+    font-size: var(--font3);
+    cursor: pointer;
+    color: var(--secondary-color);
+}
+
+.about-btns .btn-1{
+    background-color: var(--secondary-color);
+    color: var(--bright-color);
+}
+
+/* SERVICES SECTION STYLES STARTS HERE */
+#portfolio-section{
+    width: 100%;
+    height: auto;
+    display: grid;
+    place-items: center;
+    padding: 50px 0px;
+    background-color: var(--primary-color);
+    color: var(--bright-color)
+}
+
+.portifolio-content{
+    width: 95%;
+    height: auto;
+}
+
+.portifolio-content h1{
+    color: var(--secondary-color);
+    font-size: var(--font3);
+    margin-bottom: 10px;
+}
+
+.portifolio-content h2{
+    font-size: var(--font6);
+    margin-bottom: 20px;
+}
+
+.services-card{
+    width: 95%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+}
+
+.service{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* text-align: center; */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 4px;
+    /* background-color: brown; */
+}
+
+.service img{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.service h3{
+    font-size: var(--font4);
+    margin-bottom: 10px;
+}
+
+.service p{
+    font-size: var(--font2);
 }
