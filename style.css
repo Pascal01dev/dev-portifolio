@@ -161,7 +161,7 @@ main{
 }
 
 .hero-skills{
-    width: 60%;
+    width: 30%;
     height: auto;
 }
 
@@ -176,6 +176,19 @@ main{
     box-shadow: 0 0 4px;
     /* background-color: brown; */
 }
+
+.hero-skills a img{
+    width: 32px;
+    height: 32px;
+}
+
 .hero-developer{
-    width: 40%
+    width: 40%;
+    height:auto;
+    padding-bottom: 20px;
+    /* border: 2px solid var(--secondary-color); */
+}
+
+.hero-developer img{
+    width: 100%;
 }
