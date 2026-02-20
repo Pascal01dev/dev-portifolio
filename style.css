@@ -30,6 +30,8 @@
     font-family: var(--font-style);
 }
 
+/* MAIN BODY CONTAINER CSS STARTS HERE */
+
 main{
     width: 100vw;
     height: auto;
